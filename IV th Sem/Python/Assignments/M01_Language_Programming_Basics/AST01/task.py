@@ -8,5 +8,5 @@ def Ticket_Pricing(n: int) -> int:
 
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("Enter the number of tickets: "))
     print(Ticket_Pricing(n))
