@@ -1,11 +1,9 @@
 def even_odd(n: int) -> str:
-   pass 
-if n % 2 != 0:
-   return "Weird"
-else:
-    if 2 <= n <= 5:
+    if n % 2 != 0:
+        return "Weird"
+    elif n%2==0 and 2 <= n <= 5:
         return "Not Weird"
-    elif 6 <= n <= 20:
+    elif n%2==0 and 6 <= n <= 20:
         return "Weird"
     else:
         return "Not Weird"
