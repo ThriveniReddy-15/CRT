@@ -1,0 +1,27 @@
+'''
+Python Collections
+
+'''
+#Creating List:
+#2)Accessing of List
+a = [1,2,3,4,5]
+print(a[1])
+print(a[2])
+print(a[3])
+# 3) Creating List with Repeated Elements:
+a = [1,2,3,4]
+print(a*2)
+# 4)Adding Elements to List
+a = [1,2,3]
+a.append(50)
+a.insert(1,20)
+print(a)
+# 5) Removing Elements from List:
+b = list((1,2,3,4,5,7,9))
+print(b)
+b.remove(7)
+print(b)
+b.pop()
+print(b)
+b.clear()
+print(b)
